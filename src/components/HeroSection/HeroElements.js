@@ -26,7 +26,7 @@ export const HeroContainer = styled.div`
   }
 
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     width:100%;
     height:100vh;
   }
@@ -45,10 +45,8 @@ export const HeroBg = styled.div`
   height: 100%;
   overflow: hidden;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     width:100%;
-
-
   }
 
 
@@ -74,6 +72,10 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: center;
 
+  @media screen and (max-width: 768px) {
+
+  }
+
 
 `
 
@@ -83,7 +85,7 @@ export const HeroH1 = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 40px;
+    font-size: 45px;
   }
 
   @media screen and (max-width: 480px) {
@@ -99,7 +101,7 @@ export const HeroP = styled.p`
   max-width: 600px;
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   @media screen and (max-width: 480px) {
