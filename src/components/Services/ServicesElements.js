@@ -26,6 +26,8 @@ export const ServicesWrapper = styled.div`
   padding: 0 50px;
 
   @media screen and(max-width: 768px) {
+    width: 200px;
+
     grid-template-columns: 1fr 1fr;
   }
 

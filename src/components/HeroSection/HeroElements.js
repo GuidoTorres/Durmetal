@@ -25,6 +25,14 @@ export const HeroContainer = styled.div`
       z-index:2;
   }
 
+
+  @media screen and (max-width: 800px) {
+    width:100%;
+    height:100vh;
+  }
+
+
+
 `
 
 export const HeroBg = styled.div`
@@ -36,6 +44,14 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+
+  @media screen and (max-width: 800px) {
+    width:100%;
+
+
+  }
+
+
 `
 
 export const VideoBg = styled.video`
@@ -44,6 +60,8 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+
+
 `
 
 export const HeroContent = styled.div`
@@ -55,6 +73,8 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
 `
 
 export const HeroH1 = styled.h1`

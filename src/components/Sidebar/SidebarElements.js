@@ -17,14 +17,16 @@ export const SidebarContainer = styled.aside`
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
+    width:100vw;
+    height:100vh;
 
-    
-    
   }
 
-
-
+  @media screen and (max-width: 480px) {
+    width:100vw;
+    height:100vh;
+  }
 
 `
 
