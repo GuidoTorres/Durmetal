@@ -28,7 +28,7 @@ const Hero = () => {
       <HeroContent>
       <div class="elfsight-app-3aa88d4a-7286-41e7-a119-059e3a60adfb"></div>
 
-        <HeroH1>Servicios Generales</HeroH1>  
+        <HeroH1>Servicios Generales</HeroH1>
         <HeroP>
           DISEÑO Y FABRICACION DE ESTRUCTURAS METALICAS / ACERO INOXIDABLE/
           SERVICIOS DE SOLDADURA
@@ -38,11 +38,11 @@ const Hero = () => {
         <Button
           to="about"
           onMouseEnter={onHover}
-          onMouseLeave={onHover} 
+          onMouseLeave={onHover}
           primary="true"
           dark="true"
           smooth={true}
-          duration={500} 
+          duration={500}
           spy={true}
           exact="true"
           offset={50}
