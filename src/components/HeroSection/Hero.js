@@ -12,6 +12,7 @@ import {
   ArrowRight,
 } from "./HeroElements";
 import { Button } from "../ButtonElement";
+
 const Hero = () => {
   const [hover, setHover] = useState(false);
 
@@ -25,6 +26,8 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={video} type="video/mp4"></VideoBg>
       </HeroBg>
       <HeroContent>
+      <div class="elfsight-app-3aa88d4a-7286-41e7-a119-059e3a60adfb"></div>
+
         <HeroH1>Servicios Generales</HeroH1>  
         <HeroP>
           DISEÑO Y FABRICACION DE ESTRUCTURAS METALICAS / ACERO INOXIDABLE/
